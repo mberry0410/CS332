@@ -69,7 +69,7 @@ void sortStrings(char **arr, int size)
     for (i = 1; i < size; i++)
     {
         currLoc = i;
-        
+
         //does insertion sort on the strings
         while (currLoc > 0 && strcmp(arr[currLoc - 1], arr[currLoc]) > 0)
         {

@@ -7,7 +7,7 @@
 int main() {
     int N;
 
-    //Asks the user for the amount of elements
+    //This asks the user for the amount of elements
     printf("Please enter number of elements in array: ");
     scanf("%d", &N);
 
@@ -18,14 +18,14 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Displays the original array
+    // this displays the original array
     printf("Given array is: [");
     for (int i = 0; i < N - 1; i++) {
         printf("%d, ", arr[i]);
     }
     printf("%d]\n", arr[N - 1]);
 
-    // Insertion Sort
+    // insertion Sort loops
     int temp, currLoc;
     for (int i = 1; i < N; i++) {
         currLoc = i;
